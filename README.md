@@ -68,6 +68,7 @@ class Net(nn.Module):
  Therefore even after dropping of parameters from Accuracy is as par with 1st Model even better .
  
  1st Model Parameters:
+ ....................
  
  
 15s
@@ -106,6 +107,7 @@ Estimated Total Size (MB): 25.85
   
   
   2nd Model Parameeters :
+  .........................
   
   Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
 Requirement already satisfied: torchsummary in /usr/local/lib/python3.8/dist-packages (1.5.1)
@@ -141,6 +143,7 @@ Estimated Total Size (MB): 0.93
 --------------------------------------------
   
   1st Model Accuracy :
+  .......................
    0%|          | 0/469 [00:00<?, ?it/s]<ipython-input-8-98102ba2721d>:20: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
   return F.log_softmax(x)
 loss=1.9936423301696777 batch_id=468: 100%|██████████| 469/469 [00:16<00:00, 28.97it/s]
@@ -221,6 +224,7 @@ Test set: Average loss: 0.2461, Accuracy: 8987/10000 (90%)
      
   
   2nd Model Accuracy:
+  .......................
   
   loss=0.11026168614625931 batch_id=468: 100%|██████████| 469/469 [00:15<00:00, 31.06it/s]
 
